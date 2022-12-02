@@ -1,12 +1,13 @@
 {
   "name": "@amjr/amjrcomponents",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Ts components",
   "main": "index.js",
   "scripts": {
     "webpack": "webpack",
     "dev": "npm run webpack -- --mode development --watch",
     "build": "npm run webpack -- --mode production",
+    "tsBuild": "tsc -p .",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
