@@ -1,8 +1,7 @@
 {
   "name": "@amjr/amjrcomponents",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "Ts components",
-  "main": "dist/index.js",
   "scripts": {
     "build": "tsc -p .",
     "storybook": "start-storybook -p 6006",
@@ -44,5 +43,7 @@
     "tsconfig-paths-webpack-plugin": "^4.0.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.0"
-  }
+  },
+  "main": "dist/index.ts",
+  "files":["dist"]
 }
