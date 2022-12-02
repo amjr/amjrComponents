@@ -1,6 +1,6 @@
 {
   "name": "@amjr/amjrcomponents",
-  "version": "0.0.43",
+  "version": "0.0.45",
   "description": "Ts components",
   "scripts": {
     "webpack": "webpack",
