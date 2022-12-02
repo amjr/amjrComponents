@@ -1,8 +1,8 @@
 {
   "name": "@amjr/amjrcomponents",
-  "version": "0.0.13",
+  "version": "0.0.15",
   "description": "Ts components",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "webpack": "webpack",
     "dev": "npm run webpack -- --mode development --watch",
