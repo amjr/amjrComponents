@@ -1,6 +1,6 @@
 {
   "name": "@amjr/amjrcomponents",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "Ts components",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,8 @@
   "dependencies": {
     "@stitches/react": "^1.2.8",
     "react": "^18.1.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.3"
   },
   "devDependencies": {
     "@babel/core": "^7.17.12",
