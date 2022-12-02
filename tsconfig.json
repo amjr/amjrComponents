@@ -4,7 +4,6 @@
     "jsx": "react",
     "module": "commonjs",
     "baseUrl": ".",
-    // "baseUrl": "./src",
     "paths": {
       "@/*": ["./src/*"],
     },
@@ -13,6 +12,12 @@
     "strict": true,
     "skipLibCheck": true,
     "outDir":"./dist",
-    "moduleResolution": "node"
-  }
+    "moduleResolution": "node",
+    "declaration":true,
+    "typeRoots": [
+      "index.d.ts",
+      "node_modules/@types"
+    ]
+  },
+  "exclude": ["node_modules"]
 }
