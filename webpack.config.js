@@ -6,7 +6,7 @@ module.exports = {
   devtool: "inline-source-map",
   entry: "./src/index.tsx",
   output: {
-    // path: path.resolve("build"),
+    path: path.resolve("build"),
     filename: "index.ts",
   },
   module: {
