@@ -1,6 +1,6 @@
 {
-  "name": "amjrcomponents",
-  "version": "1.0.0",
+  "name": "@amjr/amjrcomponents",
+  "version": "0.0.1",
   "description": "Ts components",
   "main": "index.js",
   "scripts": {
