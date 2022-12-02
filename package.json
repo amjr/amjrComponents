@@ -1,8 +1,7 @@
 {
   "name": "@amjr/amjrcomponents",
-  "version": "0.0.20",
+  "version": "0.0.24",
   "description": "Ts components",
-  "main": "dist/index.ts",
   "scripts": {
     "webpack": "webpack",
     "dev": "npm run webpack -- --mode development --watch",
@@ -47,5 +46,9 @@
     "tsconfig-paths-webpack-plugin": "^4.0.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.0"
-  }
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ]
 }

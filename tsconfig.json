@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es2016",
-    "jsx": "react-jsx",
+    "jsx": "react",
     "module": "commonjs",
     "baseUrl": "./src",
     "paths": {
@@ -13,7 +13,5 @@
     "skipLibCheck": true,
     "outDir":"./dist",
     "moduleResolution": "node"
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "src/**/*.spec.ts"]
+  }
 }

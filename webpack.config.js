@@ -6,7 +6,10 @@ module.exports = {
   devtool: "inline-source-map",
   entry: "./src/index.tsx",
   output: {
-    filename: "index.ts",
+    path: path.resolve(__dirname, "dist"),
+    filename: "index.js",
+    libraryTarget: "umd",
+    library: "ui-lib"
   },
   module: {
     rules: [
@@ -19,5 +22,8 @@ module.exports = {
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js"]
+  },
+  externals: {
+      react: "react"
   }
 };
