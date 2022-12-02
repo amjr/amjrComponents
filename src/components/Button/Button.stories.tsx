@@ -1,3 +1,4 @@
+import React from 'react';
 import { ButtonProps } from './Button.types';
 import Button from './Button';
 

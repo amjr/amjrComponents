@@ -6,7 +6,7 @@
     "webpack": "webpack",
     "dev": "npm run webpack -- --mode development --watch",
     "build": "npm run webpack -- --mode production",
-    "tsBuild": "tsc -p .",
+    "tsc": "tsc -p .",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
